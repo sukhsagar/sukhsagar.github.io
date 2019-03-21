@@ -1388,9 +1388,12 @@ ul.latest-post a i {
 }
 
 
-#map{
+#contactSection{
 	height: 800px;
 	width:100%;
+	background-image: url("../img/contact.jpg");
+	object-fit: cover;
+	/* filter: grayscale(); */
 }
 
 
@@ -1427,7 +1430,7 @@ ul.latest-post a i {
 }
 
 .contact-form input[type="text"], .contact-form textarea, .reply-form input[type="text"], .reply-form textarea {
-    background: rgba(255, 255, 255, .10);
+    background: #F7F7F7;
     border: 1px solid rgba(255, 255, 255, 0);
     color: #ffffff;
     font-size: 12px;
@@ -1590,7 +1593,7 @@ ul.latest-post a i {
 .socials.round {
 
 	margin:0 auto;
-	max-width:50%;
+	max-width:75%;
 	
 }
 
@@ -1602,14 +1605,14 @@ ul.latest-post a i {
 
 
 .socials.round li a{
-	color:#777777;
+	color:#333333;
 
 	
 }
 
 .socials.round li a i{
 	font-size:30px;
-	color:#f0f0f0;
+	color:#333333;
 	margin-right:5px;
 }
 
@@ -1700,7 +1703,7 @@ ul.latest-post a i {
 	
 	
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
-	.block-background-image{background-attachment: scroll;background-position:top center !important;}
+	.block-background-image{background-attachment: scroll; background-size: contain ; background-position:top center!important;}
 	.img-profile img{left:-15px}
 	.menu li a{padding:22px 15px 20px;}
 	.name-profile h5{font-size:26px;}
@@ -1726,7 +1729,7 @@ ul.latest-post a i {
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation: landscape) {
 	
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
-	.block-background-image{background-attachment: scroll;background-position:top center !important;}
+	.block-background-image{background-attachment: scroll;background-position:top center!important;}
 	.styler{display: none !important;}
 	
 }
@@ -1734,7 +1737,7 @@ ul.latest-post a i {
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
-	.block-background-image{background-attachment: scroll;background-position:top center !important;}
+	.block-background-image{background-attachment: scroll; background-position:top center!important;}
 	.img-profile img{left:-15px}
 	.menu li a{padding:22px 15px 20px;}
 	.name-profile h5{font-size:26px;}
@@ -1761,7 +1764,7 @@ ul.latest-post a i {
 @media only screen and (min-width: 768px) and (max-width: 959px){
 	
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
-	.block-background-image{background-attachment: scroll;background-position:top center !important;}
+	.block-background-image{background-attachment: scroll; background-position:top center!important;}
 	p.short-email{top:0;}
 	.img-profile img, .menu li a i{display:none;}
 	.container .col-sm-2.pd-0{width:100%;}
@@ -1807,7 +1810,7 @@ ul.latest-post a i {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
-	.block-background-image{background-attachment: scroll;background-position:top center !important;}
+	.block-background-image{background-attachment: scroll; background-position:top center!important;}
 	body{font-size: 13px;}
 	.block-teaser h1{font-size:40px;}
 	.block-teaser h3{font-size: 14px;}
@@ -1873,7 +1876,7 @@ ul.latest-post a i {
 
 @media only screen and (max-width:479px) {
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
-	.block-background-image{background-attachment: scroll;background-position:top center !important;}
+	.block-background-image{background-attachment: scroll; background-position:top center!important;}
 	.block-teaser h1{font-size:40px;}
 	h2.title{font-size:28px;}
 	.img-profile img, .menu li a i{display:none;}
@@ -1939,6 +1942,26 @@ ul.latest-post a i {
 	.insta-Feed li, .insta-Feed li a{width:25%;}
 	.insta-Feed li:last-child{display:none;}
 	.styler{display: none !important;}
+}
 
-	
+
+
+.callButton{
+	color: white;
+	display: inline;
+	background: #199cdb;
+    border-radius: 6px;;
+	-moz-border-radius:6px;
+	-webkit-border-radius :6px;
+	-ms-border-radius:6px;
+	-o-border-radius: 6px;
+	font-size: 13px;
+	font-style:italic;
+	padding: 2px 4px;
+}
+
+.whatsappButton{
+	color: #199cdb;	
+	font-size: 13.5px;
+	font-style:italic;
 }
